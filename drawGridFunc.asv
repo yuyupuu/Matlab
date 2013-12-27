@@ -12,7 +12,7 @@ function drawGridFunc(figurename,handles)
     
     for i = 1:rows
        for j = 1:cols
-           
+           %disp(handles.currElecData())
     end
     guidata(figurename,handles)
 end

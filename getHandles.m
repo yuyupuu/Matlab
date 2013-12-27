@@ -21,7 +21,7 @@ function getHandles(filemat,handles)
             end
         end
         display(matName{1})
-        handles.currElecData = load(filemat,matName{1});
+        handles.currElecData = load(filemat,matName{1});%matrix of zeroes and ones
     end
     
     addedVars = [matName];
